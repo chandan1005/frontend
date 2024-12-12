@@ -1,0 +1,39 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.packet-list, .mitm-details {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.packet-list li, .mitm-details li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.packet-list li:last-child, .mitm-details li:last-child {
+  border-bottom: none;
+}
