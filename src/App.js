@@ -10,7 +10,8 @@ import './App.css';
 // Register the necessary Chart.js components
 Chart.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
-const socket = io('http://localhost:5000');
+//const socket = io('http://localhost:5000');
+const socket=io('http://172.31.196.81:5000');
 
 const theme = createTheme({
   palette: {
